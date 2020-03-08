@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2226C9882400FA3F004CD777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226C9872400FA3F004CD777 /* AppDelegate.m */; };
+		2226C98B2400FA3F004CD777 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226C98A2400FA3F004CD777 /* SceneDelegate.m */; };
+		2226C98E2400FA3F004CD777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226C98D2400FA3F004CD777 /* ViewController.m */; };
+		2226C9912400FA3F004CD777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2226C98F2400FA3F004CD777 /* Main.storyboard */; };
+		2226C9932400FA40004CD777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226C9922400FA40004CD777 /* Assets.xcassets */; };
+		2226C9962400FA40004CD777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2226C9942400FA40004CD777 /* LaunchScreen.storyboard */; };
+		2226C9992400FA40004CD777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226C9982400FA40004CD777 /* main.m */; };
+		2226C9A12400FA75004CD777 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226C9A02400FA75004CD777 /* Person.m */; };
+		22B0EF9B24024ACD00331341 /* ALBaseKVOAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EF9A24024ACD00331341 /* ALBaseKVOAutoViewController.m */; };
+		22B0EF9F240250AE00331341 /* ALBaseKVOManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EF9E240250AE00331341 /* ALBaseKVOManualViewController.m */; };
+		22B0EFA22402519F00331341 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFA12402519F00331341 /* Dog.m */; };
+		22B0EFA5240252CB00331341 /* ALBaseKVOAttriDependViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFA4240252CB00331341 /* ALBaseKVOAttriDependViewController.m */; };
+		22B0EFA82402559E00331341 /* ALBaseKVOContainerClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFA72402559E00331341 /* ALBaseKVOContainerClassViewController.m */; };
+		22B0EFAC2402580500331341 /* ALDefineKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFAB2402580500331341 /* ALDefineKVOViewController.m */; };
+		22B0EFAF24025C8900331341 /* NSObject+ALKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFAE24025C8900331341 /* NSObject+ALKVO.m */; };
+		22B0EFB22402702B00331341 /* ALDefineKVOBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFB12402702B00331341 /* ALDefineKVOBlockViewController.m */; };
+		22B0EFB52402706700331341 /* NSObject+ALKVOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFB42402706700331341 /* NSObject+ALKVOBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2226C9832400FA3F004CD777 /* ALKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2226C9862400FA3F004CD777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2226C9872400FA3F004CD777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2226C9892400FA3F004CD777 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2226C98A2400FA3F004CD777 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2226C98C2400FA3F004CD777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2226C98D2400FA3F004CD777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2226C9902400FA3F004CD777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2226C9922400FA40004CD777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2226C9952400FA40004CD777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2226C9972400FA40004CD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2226C9982400FA40004CD777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2226C99F2400FA75004CD777 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2226C9A02400FA75004CD777 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		22B0EF9924024ACD00331341 /* ALBaseKVOAutoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseKVOAutoViewController.h; sourceTree = "<group>"; };
+		22B0EF9A24024ACD00331341 /* ALBaseKVOAutoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseKVOAutoViewController.m; sourceTree = "<group>"; };
+		22B0EF9D240250AE00331341 /* ALBaseKVOManualViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseKVOManualViewController.h; sourceTree = "<group>"; };
+		22B0EF9E240250AE00331341 /* ALBaseKVOManualViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseKVOManualViewController.m; sourceTree = "<group>"; };
+		22B0EFA02402519F00331341 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		22B0EFA12402519F00331341 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		22B0EFA3240252CB00331341 /* ALBaseKVOAttriDependViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseKVOAttriDependViewController.h; sourceTree = "<group>"; };
+		22B0EFA4240252CB00331341 /* ALBaseKVOAttriDependViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseKVOAttriDependViewController.m; sourceTree = "<group>"; };
+		22B0EFA62402559E00331341 /* ALBaseKVOContainerClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseKVOContainerClassViewController.h; sourceTree = "<group>"; };
+		22B0EFA72402559E00331341 /* ALBaseKVOContainerClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseKVOContainerClassViewController.m; sourceTree = "<group>"; };
+		22B0EFAA2402580500331341 /* ALDefineKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDefineKVOViewController.h; sourceTree = "<group>"; };
+		22B0EFAB2402580500331341 /* ALDefineKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDefineKVOViewController.m; sourceTree = "<group>"; };
+		22B0EFAD24025C8900331341 /* NSObject+ALKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ALKVO.h"; sourceTree = "<group>"; };
+		22B0EFAE24025C8900331341 /* NSObject+ALKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ALKVO.m"; sourceTree = "<group>"; };
+		22B0EFB02402702B00331341 /* ALDefineKVOBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDefineKVOBlockViewController.h; sourceTree = "<group>"; };
+		22B0EFB12402702B00331341 /* ALDefineKVOBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDefineKVOBlockViewController.m; sourceTree = "<group>"; };
+		22B0EFB32402706700331341 /* NSObject+ALKVOBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ALKVOBlock.h"; sourceTree = "<group>"; };
+		22B0EFB42402706700331341 /* NSObject+ALKVOBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ALKVOBlock.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2226C9802400FA3F004CD777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2226C97A2400FA3F004CD777 = {
+			isa = PBXGroup;
+			children = (
+				2226C9852400FA3F004CD777 /* ALKVO */,
+				2226C9842400FA3F004CD777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2226C9842400FA3F004CD777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2226C9832400FA3F004CD777 /* ALKVO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2226C9852400FA3F004CD777 /* ALKVO */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EFA9240257C700331341 /* Model */,
+				22B0EF9C2402504800331341 /* KVO */,
+				2226C9862400FA3F004CD777 /* AppDelegate.h */,
+				2226C9872400FA3F004CD777 /* AppDelegate.m */,
+				2226C9892400FA3F004CD777 /* SceneDelegate.h */,
+				2226C98A2400FA3F004CD777 /* SceneDelegate.m */,
+				2226C98C2400FA3F004CD777 /* ViewController.h */,
+				2226C98D2400FA3F004CD777 /* ViewController.m */,
+				2226C98F2400FA3F004CD777 /* Main.storyboard */,
+				2226C9922400FA40004CD777 /* Assets.xcassets */,
+				2226C9942400FA40004CD777 /* LaunchScreen.storyboard */,
+				2226C9972400FA40004CD777 /* Info.plist */,
+				2226C9982400FA40004CD777 /* main.m */,
+			);
+			path = ALKVO;
+			sourceTree = "<group>";
+		};
+		22B0EF9C2402504800331341 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EF9924024ACD00331341 /* ALBaseKVOAutoViewController.h */,
+				22B0EF9A24024ACD00331341 /* ALBaseKVOAutoViewController.m */,
+				22B0EF9D240250AE00331341 /* ALBaseKVOManualViewController.h */,
+				22B0EF9E240250AE00331341 /* ALBaseKVOManualViewController.m */,
+				22B0EFA3240252CB00331341 /* ALBaseKVOAttriDependViewController.h */,
+				22B0EFA4240252CB00331341 /* ALBaseKVOAttriDependViewController.m */,
+				22B0EFA62402559E00331341 /* ALBaseKVOContainerClassViewController.h */,
+				22B0EFA72402559E00331341 /* ALBaseKVOContainerClassViewController.m */,
+				22B0EFAA2402580500331341 /* ALDefineKVOViewController.h */,
+				22B0EFAB2402580500331341 /* ALDefineKVOViewController.m */,
+				22B0EFB02402702B00331341 /* ALDefineKVOBlockViewController.h */,
+				22B0EFB12402702B00331341 /* ALDefineKVOBlockViewController.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		22B0EFA9240257C700331341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2226C99F2400FA75004CD777 /* Person.h */,
+				2226C9A02400FA75004CD777 /* Person.m */,
+				22B0EFA02402519F00331341 /* Dog.h */,
+				22B0EFA12402519F00331341 /* Dog.m */,
+				22B0EFAD24025C8900331341 /* NSObject+ALKVO.h */,
+				22B0EFAE24025C8900331341 /* NSObject+ALKVO.m */,
+				22B0EFB32402706700331341 /* NSObject+ALKVOBlock.h */,
+				22B0EFB42402706700331341 /* NSObject+ALKVOBlock.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2226C9822400FA3F004CD777 /* ALKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2226C99C2400FA40004CD777 /* Build configuration list for PBXNativeTarget "ALKVO" */;
+			buildPhases = (
+				2226C97F2400FA3F004CD777 /* Sources */,
+				2226C9802400FA3F004CD777 /* Frameworks */,
+				2226C9812400FA3F004CD777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALKVO;
+			productName = ALKVO;
+			productReference = 2226C9832400FA3F004CD777 /* ALKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2226C97B2400FA3F004CD777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "李丽";
+				TargetAttributes = {
+					2226C9822400FA3F004CD777 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2226C97E2400FA3F004CD777 /* Build configuration list for PBXProject "ALKVO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2226C97A2400FA3F004CD777;
+			productRefGroup = 2226C9842400FA3F004CD777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2226C9822400FA3F004CD777 /* ALKVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2226C9812400FA3F004CD777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226C9962400FA40004CD777 /* LaunchScreen.storyboard in Resources */,
+				2226C9932400FA40004CD777 /* Assets.xcassets in Resources */,
+				2226C9912400FA3F004CD777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2226C97F2400FA3F004CD777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0EF9B24024ACD00331341 /* ALBaseKVOAutoViewController.m in Sources */,
+				2226C98E2400FA3F004CD777 /* ViewController.m in Sources */,
+				22B0EFA22402519F00331341 /* Dog.m in Sources */,
+				22B0EFB22402702B00331341 /* ALDefineKVOBlockViewController.m in Sources */,
+				22B0EFA5240252CB00331341 /* ALBaseKVOAttriDependViewController.m in Sources */,
+				2226C9882400FA3F004CD777 /* AppDelegate.m in Sources */,
+				2226C9A12400FA75004CD777 /* Person.m in Sources */,
+				2226C9992400FA40004CD777 /* main.m in Sources */,
+				22B0EFA82402559E00331341 /* ALBaseKVOContainerClassViewController.m in Sources */,
+				22B0EFAC2402580500331341 /* ALDefineKVOViewController.m in Sources */,
+				2226C98B2400FA3F004CD777 /* SceneDelegate.m in Sources */,
+				22B0EFB52402706700331341 /* NSObject+ALKVOBlock.m in Sources */,
+				22B0EF9F240250AE00331341 /* ALBaseKVOManualViewController.m in Sources */,
+				22B0EFAF24025C8900331341 /* NSObject+ALKVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2226C98F2400FA3F004CD777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2226C9902400FA3F004CD777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2226C9942400FA40004CD777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2226C9952400FA40004CD777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2226C99A2400FA40004CD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2226C99B2400FA40004CD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2226C99D2400FA40004CD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92RY6CAUY9;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = ALKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiLy.ALKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2226C99E2400FA40004CD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92RY6CAUY9;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = ALKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiLy.ALKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2226C97E2400FA3F004CD777 /* Build configuration list for PBXProject "ALKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2226C99A2400FA40004CD777 /* Debug */,
+				2226C99B2400FA40004CD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2226C99C2400FA40004CD777 /* Build configuration list for PBXNativeTarget "ALKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2226C99D2400FA40004CD777 /* Debug */,
+				2226C99E2400FA40004CD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2226C97B2400FA3F004CD777 /* Project object */;
+}
